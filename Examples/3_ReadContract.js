@@ -1,6 +1,6 @@
 const {ethers} =  require('ethers');
 
-const url = "https://mainnet.infura.io/v3/ff0770abd1b1422681ee172cb5b285ef";
+const url = ""; // Add Network Endpoint (Eg. Infura)
 const provider = new ethers.providers.JsonRpcProvider(url);
 
 const address = '0x514910771AF9Ca656af840dff83E8264EcF986CA'; // DAI Contract
